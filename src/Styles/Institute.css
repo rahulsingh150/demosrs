@@ -1,0 +1,32 @@
+.Institute-tab{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+.Institute-tab-one{
+    display: flex;
+    gap: 15px;
+}
+.Institute-tab-two{
+    display: flex;
+    gap: 15px;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+
+.Institute-tab-content{
+    width: 800px;
+    padding-right: 10px;
+}
+
+@media (max-width: 1226px) {
+    .Institute-tab-one{
+        flex-direction: column;
+    }
+    .Institute-tab-two{
+        flex-direction: column;
+    }
+    .Institute-tab-content{
+        width: 100%;
+    }
+  }

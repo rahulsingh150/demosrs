@@ -59,7 +59,7 @@ function Institute() {
             Image={Image}
             BoxHeading={BoxHeadingSecond}
           />
-          <div className="Institute-tab-content" style={{marginLeft: '10px'}}>
+          <div className="Institute-tab-content" style={{ marginLeft: '10px'}}>
             <h3 style={{textAlign: "justify"}}>
               The Aryabhatta Knowledge University was established by the Govt.
               of Bihar in its capital city Patna to promote the conventional as
